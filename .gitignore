@@ -1,0 +1,35 @@
+# Ignore Python build artifacts.
+
+MANIFEST
+build/
+dist/
+*.egg-info/
+*.pyc
+*.pyo
+
+
+# Ignore Python environments.
+
+.python-version
+.venv*/
+
+
+# Ignore Make artifacts.
+
+**/.make-update
+
+
+# Ignore settings for various IDEs.
+
+.idea/
+.project/
+.pydevproject/
+.vscode/
+nbproject/
+*.code-workspace
+
+
+# Ignore OS metadata files.
+
+.DS_Store
+Thumbs.db
